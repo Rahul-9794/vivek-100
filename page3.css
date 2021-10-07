@@ -1,0 +1,14 @@
+img{
+    width: 70px;
+    height: 70px;
+    float:left;
+    margin:1.66%;
+}
+p{
+    font-family: "noto serif",serif;
+    text-align:center;
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,65 @@
+/*navbar*/
+#top_nav{
+    background-color: #8a816c;
+    padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fbf9f9;
+    font-size: 18px;
+    padding-left: 25px;
+
+}
+#banner{
+    background-color: rgb(161, 95, 141);
+    padding-bottom: 20px;
+    
+}
+#bannertext p{
+    color:white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#banner-btn-1{
+    background-color: midnightblue;
+    border: 2px solid blue;
+    color:white;
+
+}
+#banner-btn-2{
+color: white;
+border:2px solid white;
+margin-left: 15px;
+
+}
+#h1::target-text{
+    align-items: center;
+} 
+#service-text{
+    padding: auto;
+    margin: 0%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: rgb(0, 252, 197);
+    rotate: 40;
+}
+#service-btn{
+    color: white;
+    background-color: yellow;
+    border: 2px solid greenyellow;
+
+}
+#service-img{
+    padding: 5%;
+
+}
+@media only screen and(max-width:788px){
+    #service-img {
+        padding-top:10%;
+
+}}
+#counter-section{
+    align-items: center;
+    background-color: lightgreen;
+    
+}

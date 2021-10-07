@@ -1,0 +1,53 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: chartreuse;
+}
+h3{
+    color: darkcyan;
+}
+h4{
+    color:darkorange
+}
+li{
+    color: darkslategrey;
+}
+p{
+    background: floralwhite;
+
+}
+input{
+    border:5px red solid;
+    color:floralwhite;
+}
+#special{
+    border:10px orange solid;
+}
+input[type="text"]{
+    background: green;
+}
+input:checked{
+    margin-left:50px;
+}
+.hello{
+    background: blue;
+    color: white;
+}
+label{
+    text-transform: uppercase;
+}
+#specila::first-letter{
+    color:green;
+    font-size: rgb(245, 200, 200);
+}
+h1:hover{
+    color: hotpink;
+    border: 10px red solid;
+}
+a:visited{
+    color:yellow;
+}
