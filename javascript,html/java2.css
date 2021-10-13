@@ -1,7 +1,10 @@
 /*navbar*/
-#top_nav{
+#top_nav {
     background-color: #8a816c;
     padding: 0 8%;
+ 
+      
+    
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #fbf9f9;
@@ -63,3 +66,19 @@ margin-left: 15px;
     background-color: lightgreen;
     
 }
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel = "stylesheet" href = "https://www.w3schools.com/lib/w3.css">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
   <link rel="stylesheet" href="java2.css">
+  
 
 
   <title>Hello, Bootstrap</title>
@@ -73,14 +73,25 @@
       </div>
     </div>
     <!--counter-->
-    <div class="row justify-content-center" id="counter-section"></div>
-    <div class="col-md-3 text-center"></div>
-     <h3>Hello Rahul</h3>
-    <div class="col-md-3 text-center"></div>
-    <h3>Hello Nana</h3>
-    <div class="col-md-3 text-center "></div>
-    <h3>Hello Gautam</h3>
-  
+    
+    <h2>Images Side by Side</h2>
+    <p>Float images side by side:</p>
+    
+    <div class="clearfix w3-tooltip">
+      <div class="img-container ">
+        <div class = ""></div>
+      <img src="Sunny.jpg.jpg" alt="Italy" style="width:100%">
+      </div>
+      <div class="img-container">
+      <img src="photo.jpg" alt="Forest" style="width:100%">
+      </div>
+      <div class="img-container">
+      <img src="photo.jpg" alt="Mountains" style="width:100%">
+      </div>
+    </div>
+    
+    <p>Note that we also use the clearfix hack to take care of the layout flow, and that we add the box-sizing property to make sure that the image container doesn't break due to extra padding. Try to remove this code to see the effect.</p>
+    
   
   <!-- Optional JavaScript; choose one of the two! -->
 

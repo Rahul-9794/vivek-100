@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+
+}
+#top-nav{
+    position:fixed ;
+    top:0;
+    left: 0;
+    z-index: 1;
+    border-color: white;
+    width:100%;
+    box-shadow: 0px 2px 5px black;
+
+}
+#top-nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 20px;
+    display: inline-block;
+    padding: 6px;
+    margin: 13px;
+    letter-spacing: 3px;
+}
+#top-nav-right{
+    float: right;
+    margin-right: 10px;
+}
+#Home-section {
+    position: relative;
+    margin-bottom: 50px;
+    }
+    #Home-section p{
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        font-size: 45px;
+        color: gray;
+    }
+    #section-container{
+        width: 70px;
+        margin: auto;
+    }
+    #sectiop-container-img{
+        border-radius: 5px;
+    }
+    #img-container{
+        box-sizing: border-box;
+        padding :10px 20px;
+        width: 49%;
+        float:left
+    }
+    #text-container{
+        box-sizing: border-box;
+        width:49%;
+        float: left;
+        padding: 10px 20px;
+    }
+    #About-section::after{
+        content:"";
+        display: table;
+        clear: both;
+    }
+    #Menu-section{
+        padding-top: 70px;
+        margin-bottom: 50px;
+    }
+    #Menu-section::after{
+        content:"";
+        display: table;
+        clear: both;
+    }
+    #text-container2{
+        box-sizing: border-box;
+        padding: 10px 20px;
+        width: 49%;
+        float: left;
+    }
+    #img-container{
+        box-sizing: border-box;
+        padding: 10px 20px;
+        width: 49%;
+        float: left;
+    }
+    #Contact-section{
+        padding: 70px 20px;
+        margin-bottom: 50px;
+    }
+    #Contact-section p{
+        font-size: 15px;
+    
+    }
+    #Contact-section input[type="text"],#Contact-section input[type="text"]{
+        width: 100;
+        border: none;
+        border-bottom: 1px solid green;
+        font-size: 15px;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    button{
+        border: none;
+        background-color: hotpink;
+        font-family: serif;
+        font-family: 15px;
+        padding: 10px;
+    }
+    #footer{
+        padding: 20px;
+        background-color: grey;
+        text-align: center;
+        font-size: 10px;
+    }
+    #footer a{
+    color:green;
+    }
